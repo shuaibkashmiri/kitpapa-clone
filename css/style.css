@@ -1,0 +1,153 @@
+:root{
+    --primary: #3482FF;
+    --secondary: #54595f;
+    --or:#F89E52;
+}
+
+
+*{
+font-family: Poppins-Regular;
+/* border: 2px solid blue; */
+font-family: "Poppins", sans-serif;
+}
+
+  
+
+section{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+/* Section Header */
+
+#header{
+    height: 100vh;
+    
+    display: flex;
+    justify-content:safe;
+    background-image: url(../Resources/images/slider_shape-jim-fahad-digital-1.png);
+    background-position: left;
+}
+#header div{
+ height: 100vh;
+ width: 45%;
+
+
+}
+
+.primary-text{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size:3.5em;
+    line-height:1.2em
+}
+
+.header-text p{
+    font-weight: 500;
+    font-size:18px;
+    color: var(--secondary);
+   position: relative;
+   top: -5%;
+}
+
+.get-started-btn{
+    width: 200px;
+    height: 70px;
+    background-color: var(--primary);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+}
+
+.play-btn{
+    width: 60px;
+    height: 60px;
+    background-color: var(--or);
+    border-radius: 50%;
+    margin-left: 40px;
+    border: none;
+    animation-name: ripple;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: both;
+}
+
+@keyframes ripple {
+    0%{
+        box-shadow: 0 0 0 0 var(--or) ;
+        
+    }
+    30%{
+        box-shadow: 0 0 0 2.5px var(--or);
+
+    }
+    70%{
+        box-shadow: 0 0 0 5px var(--or)
+    }
+    100%{
+        box-shadow: 0 0 0 0px var(--or)
+    }
+}
+
+.service-text-container{
+    display: flex;
+
+}
+
+#services p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--or);
+}
+
+#services h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#services>div>h2>span{
+    color: var(--primary);
+}
+.service-span{
+   display: flex;
+   justify-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary);
+    line-height: 1px;
+    
+}
+
+.service-container{
+    width: 100%;
+    height: 600px;
+    background-color: #F3F7FA;
+    margin-top: 8%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.service{
+    
+    width: 22vw;
+    height: 350px;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+}
+
+.service:hover{
+    background-color: #fff;
+}
+
+
+
