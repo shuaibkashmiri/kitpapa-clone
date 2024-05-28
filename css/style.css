@@ -82,10 +82,6 @@ body{
    top: -5%;
 }
 
-.header-image{
-    width: 500px;
-    height: 500px;
-}
 
 .get-started-btn{
     width: 200px;
@@ -171,10 +167,7 @@ body{
     justify-content: space-evenly;
 
 }
-.header-image{
-   margin-top: 8%;
-    height: 80%;
-}
+
 
 .service{
     
@@ -285,7 +278,20 @@ body{
 }
 
 @media screen and (max-width: 575px) { 
-    #header{
+   body{
+    margin-left: 8%;
+    margin-right: 5%;
+
+   }
+
+   .navlinks{
+    
+    display: flex;
+    flex-direction: column;
+   }
+    
+   
+   #header{
         display: flex;
         flex-direction: column;  
     }
@@ -293,7 +299,18 @@ body{
         height: 100vh;
         width: 100vw;
      }
-       
+
+     .img-div{
+        width: 200px;
+        height: 200px;
+     }
+     .header-image{
+        margin-top: 8%;
+        width: 70%;
+        margin-left: 5%;
+        
+     }  
+
 .primary-text{
     font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -310,10 +327,11 @@ body{
    
 }
 
-#header img{
-    width: 90vw;
+#services{
+    margin-top: 25%;
 
 }
+
 
 .service-container{
     height: 100%;
