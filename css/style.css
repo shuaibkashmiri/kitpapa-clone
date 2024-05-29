@@ -13,9 +13,8 @@ font-family: "Poppins", sans-serif;
 
   
 
-body{
-    margin-left: 8%;
-    margin-right: 8%;
+section{
+    margin: 0% 7%;
 }
 
 .logo{
@@ -112,21 +111,21 @@ body{
 
 @keyframes ripple {
     0%{
-        box-shadow: 0 0 0 2px #f89d52 ;
+        box-shadow: 0 0 0 1px #f89d52 ;
         
     }
     25%{
-        box-shadow: 0 0 0 4px #f89d52ba;
+        box-shadow: 0 0 0 3px #f89d52ba;
 
     }
     50%{
-        box-shadow: 0 0 0 6px #f89d528e;
+        box-shadow: 0 0 0 9px #f89d528e;
     }
     75%{
-        box-shadow: 0 0 0 8px #f89d525c;
+        box-shadow: 0 0 0 12px #f89d525c;
     }
     100%{
-        box-shadow: 0 0 0 10px #f89d5221;
+        box-shadow: 0 0 0 15px #f89d5221;
     }
 }
 
@@ -213,17 +212,12 @@ body{
 .slide-track{
     white-space: nowrap; 
     overflow: hidden;
-    margin-top: 50px;
-   
-  
-   
-   
+    margin-top: 50px; 
 }
 
 .slide img{ 
    margin: 0 37px;
    
-    
 }
 
 .slide{
@@ -276,6 +270,80 @@ body{
     transform: translateX(-100%); 
 }
 }
+
+
+/* Testomonial Sections */
+
+#testomonial{
+    background-color: #1e1c1e;
+    background-image:url(/Resources/images/testimonial_shape-jim-fahad-digital-1.png);
+    margin: 1% -1%;
+}
+
+
+
+.testomonial-text{
+    font-size: 40px;
+    margin-left: 100px; 
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #F3F7FA;
+}
+
+
+
+.testomonial-main-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.internal-div{
+    width: 550px;
+    height:250px ;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.internal-div img{
+    width: 70px;
+    border: 10px solid white;
+    margin-top: -7%;
+    margin-left: 3%;
+    border-radius: 50%;
+}
+
+.customer-name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left:  3%;
+    
+
+} 
+
+.customer-role{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color:var(--secondary);
+    margin-left:  3%;
+}
+.customer-comment{
+    margin-left:  3%;
+    margin-right: 3%;
+}
+
+
+/* Media Controls */
 
 @media screen and (max-width: 575px) { 
    body{
