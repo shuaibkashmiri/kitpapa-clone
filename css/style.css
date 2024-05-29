@@ -278,6 +278,7 @@ section{
     background-color: #1e1c1e;
     background-image:url(/Resources/images/testimonial_shape-jim-fahad-digital-1.png);
     margin: 1% -1%;
+    padding-bottom: 4%;
 }
 
 
@@ -341,6 +342,116 @@ section{
     margin-left:  3%;
     margin-right: 3%;
 }
+
+/* footer */
+#footer{
+    margin:  -1%;
+    padding-bottom: 4%;  
+    height: 350px;  
+   
+    background-color: var(--primary)
+}
+
+#footer hr{
+    margin: 0 7%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #fff;
+}
+.footer-top{
+    height:320px ;
+    background-color: var(--primary);
+    margin: 0 7%;
+    display: flex;
+
+}
+.social{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.social img{
+    width: 150px;
+    margin-top: 10%;
+}
+.social-text{
+    font-size: 18px;
+    color: #F3F7FA;
+}
+.icon{
+    font-size: 18px;
+    width: 30%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages{
+    height: 100%;
+    width: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+
+}
+
+.pages h4{
+margin-top: 18%;
+margin-left: 30%;
+font-size: 20px;
+margin-bottom: 0;
+color: #fff;
+}
+
+.pages a{
+    margin-left: 30%;
+    text-decoration: none;
+    font-size:18px ;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.qul{
+   height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.qul h4{
+    margin-top: 18%;
+    margin-left: 30%;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #fff;
+    }
+
+    .qul a{
+    margin-left: 30%;
+    text-decoration: none;
+    font-size:18px ;
+    font-weight: 400;
+    color: #fff;
+    }
+
+    .footer-bottom{
+        background-color: var(--primary);
+        margin: 2% 7%;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+
+
+
+
 
 
 /* Media Controls */
